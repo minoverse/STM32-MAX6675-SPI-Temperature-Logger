@@ -1,0 +1,1 @@
+# STM32-MAX6675-SPI-Temperature-Logger
