@@ -57,7 +57,7 @@ UART (for Serial Output):
 
 ```c
 void HAL_UART_Send_Temp(uint16_t temp) {
-    char buffer[50];
+    char buffer[50]; // no malloc
     snprintf(buffer, sizeof(buffer), "Temperature: %d C\r\n", temp);
     HAL_UART_Transmit(&huart2, (uint8_t *)buffer, strlen(buffer), HAL_MAX_DELAY);
 }
