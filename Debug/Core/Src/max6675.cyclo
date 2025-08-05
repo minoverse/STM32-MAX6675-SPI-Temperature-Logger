@@ -1,0 +1,6 @@
+../Core/Src/max6675.c:13:18:MAX6675_Init	6
+../Core/Src/max6675.c:45:18:MAX6675_ReadTemperature	9
+../Core/Src/max6675.c:95:18:MAX6675_StartConversion	3
+../Core/Src/max6675.c:103:6:MAX6675_IsConversionReady	3
+../Core/Src/max6675.c:110:13:MAX6675_GetErrorString	6
+../Core/Src/max6675.c:121:6:MAX6675_GetStats	4
